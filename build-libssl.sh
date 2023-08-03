@@ -25,7 +25,7 @@ set -u
 # SCRIPT DEFAULTS
 
 # Default version in case no version is specified
-DEFAULTVERSION="1.1.1k"
+DEFAULTVERSION="1.1.1u"
 
 # Default (=full) set of targets (OpenSSL >= 1.1.1) to build
 DEFAULTTARGETS=`cat <<TARGETS
@@ -488,6 +488,7 @@ OPENSSL_CHECKSUMS="
   1.1.1g ddb04774f1e32f0c49751e21b67216ac87852ceb056b75209af2443400636d46
   1.1.1h 5c9ca8774bd7b03e5784f26ae9e9e6d749c9da2438545077e6b3d755a06595d9
   1.1.1k 892a0875b9872acd04a9fde79b1f943075d5ea162415de3047c327df33fbaee5
+  1.1.1u e2f8d84b523eecd06c7be7626830370300fbcc15386bf5142d72758f6963ebc6
 "
 checksum_checked=false
 while read version expectedSHA256; do
