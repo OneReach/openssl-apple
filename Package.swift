@@ -14,9 +14,9 @@ let package = Package(
     targets: [
         .binaryTarget(name: "openssl",
                       // update version in URL path
-                      url:"https://github.com/cossacklabs/openssl-apple/releases/download/1.1.12101/openssl-static-xcframework.zip",
+                      url:"https://github.com/cossacklabs/openssl-apple/releases/download/1.1.12201/openssl-static-xcframework.zip",
                       // Run from package directory:
                       // swift package compute-checksum output/openssl-static-xcframework.zip
-                      checksum: "2a2023e200e3472cb6b06ca42a5903e66b567e223d8b540ccb3767fa61abf62f"),
+                      checksum: "a3363e4297428d2497c481791f6ac3c17c118b6829ee6246781efe0a3593ae16"),
     ]
 )
