@@ -18,3 +18,5 @@ Pods
 
 # Cossack Labs packaging
 output
+cocoapods/CLOpenSSL-XCF.podspec 
+
