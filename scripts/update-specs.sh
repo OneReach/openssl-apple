@@ -15,8 +15,8 @@
 set -eu
 
 OUTPUT=${OUTPUT:-output}
-MIN_IOS_SDK=${MIN_IOS_SDK:-8.0}
-MIN_OSX_SDK=${MIN_OSX_SDK:-10.9}
+MIN_IOS_SDK=${MIN_IOS_SDK:-11.0}
+MIN_OSX_SDK=${MIN_OSX_SDK:-10.13}
 
 # GitHub repository where build script and binaries are hosted
 GITHUB_REPO="https://github.com/cossacklabs/openssl-apple"
